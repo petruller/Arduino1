@@ -1,0 +1,1747 @@
+мар. 13, 2025 7:30:41 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 140.00014 BMP
+мар. 13, 2025 7:30:41 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 140.0
+мар. 13, 2025 7:31:06 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 118.00014 BMP
+мар. 13, 2025 7:31:06 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 118.0
+мар. 13, 2025 7:34:04 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 118.0
+мар. 13, 2025 7:34:54 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 118.0
+мар. 13, 2025 7:36:19 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 118.00014 BMP
+мар. 13, 2025 7:38:39 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 100.0 BMP
+мар. 13, 2025 7:57:57 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 100.0 BMP
+мар. 13, 2025 7:58:57 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 118.0
+мар. 13, 2025 7:58:57 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 118.0 BMP
+мар. 13, 2025 7:58:57 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 118.0
+мар. 13, 2025 7:59:24 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 118.0
+мар. 13, 2025 8:13:25 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 100.0 BMP
+мар. 13, 2025 8:14:52 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 100.0 BMP
+мар. 13, 2025 8:14:59 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 5 tracks at 112.00006 BMP
+мар. 13, 2025 8:14:59 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 112.0
+мар. 13, 2025 8:14:59 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 112.0
+мар. 13, 2025 8:15:07 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 112.0
+мар. 13, 2025 8:15:10 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 112.0
+мар. 13, 2025 8:20:08 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 100.0 BMP
+мар. 13, 2025 8:20:58 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 118.0
+мар. 13, 2025 8:20:58 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 118.00014 BMP
+мар. 13, 2025 8:26:20 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 4 tracks at 120.0 BMP
+мар. 13, 2025 8:26:20 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 117.0
+мар. 13, 2025 8:28:11 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 117.0
+мар. 13, 2025 8:28:19 PM com.moppy.control.gui.SequencerPanel midiOutCBActionPerformed
+SEVERE: null
+javax.sound.midi.MidiUnavailableException: The specified device is already in use.  Wait until it is free, and then try again.
+	at java.desktop/com.sun.media.sound.MidiOutDevice.nOpen(Native Method)
+	at java.desktop/com.sun.media.sound.MidiOutDevice.implOpen(MidiOutDevice.java:49)
+	at java.desktop/com.sun.media.sound.AbstractMidiDevice.doOpen(AbstractMidiDevice.java:138)
+	at java.desktop/com.sun.media.sound.AbstractMidiDevice.open(AbstractMidiDevice.java:109)
+	at com.moppy.control.gui.SequencerPanel.midiOutCBActionPerformed(SequencerPanel.java:480)
+	at com.moppy.control.gui.SequencerPanel$9.actionPerformed(SequencerPanel.java:270)
+	at java.desktop/javax.swing.JComboBox.fireActionEvent(JComboBox.java:1294)
+	at java.desktop/javax.swing.JComboBox.setSelectedItem(JComboBox.java:619)
+	at java.desktop/javax.swing.JComboBox.setSelectedIndex(JComboBox.java:654)
+	at java.desktop/javax.swing.plaf.basic.BasicComboPopup$Handler.mouseReleased(BasicComboPopup.java:946)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:298)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/javax.swing.plaf.basic.BasicComboPopup$1.processMouseEvent(BasicComboPopup.java:551)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+мар. 13, 2025 8:32:28 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 117.0
+мар. 13, 2025 8:32:49 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 117.0
+мар. 13, 2025 8:36:20 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 140.00014 BMP
+мар. 13, 2025 8:36:20 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 140.0
+мар. 13, 2025 8:36:34 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 4 tracks at 120.0 BMP
+мар. 13, 2025 8:36:51 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+мар. 13, 2025 8:36:51 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 116.0
+мар. 13, 2025 8:38:19 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 4 tracks at 120.0 BMP
+мар. 13, 2025 8:38:19 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 117.0
+мар. 13, 2025 8:39:25 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 105.0
+мар. 13, 2025 8:39:25 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 105.00011 BMP
+мар. 13, 2025 8:39:58 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 93.0
+мар. 13, 2025 8:39:58 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 2 tracks at 93.0 BMP
+мар. 13, 2025 8:39:58 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 93.0
+мар. 13, 2025 8:40:26 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 130.0
+мар. 13, 2025 8:40:26 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 15 tracks at 130.0 BMP
+мар. 13, 2025 8:40:26 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 130.0
+мар. 13, 2025 8:41:24 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 12 tracks at 157.99994 BMP
+мар. 13, 2025 8:41:24 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 157.0
+мар. 13, 2025 8:42:07 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 105.0
+мар. 13, 2025 8:42:07 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 105.00011 BMP
+мар. 13, 2025 8:42:19 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 217.0
+мар. 13, 2025 8:42:19 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 8 tracks at 217.00055 BMP
+мар. 13, 2025 8:47:10 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 5 tracks at 120.0 BMP
+мар. 13, 2025 8:47:10 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 216.0
+мар. 13, 2025 8:49:43 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 216.0
+мар. 13, 2025 8:49:59 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 120.0 BMP
+мар. 13, 2025 8:56:28 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 118.00014 BMP
+мар. 13, 2025 8:56:28 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 118.0
+мар. 13, 2025 8:57:06 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+мар. 13, 2025 8:57:06 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 130.0
+мар. 13, 2025 8:58:00 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 116.0
+мар. 13, 2025 8:58:00 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 2 tracks at 116.0 BMP
+мар. 13, 2025 8:58:27 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+мар. 13, 2025 8:58:27 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 116.0
+мар. 13, 2025 8:59:18 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 105.0
+мар. 13, 2025 8:59:18 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 105.00011 BMP
+мар. 13, 2025 9:05:40 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 4 tracks at 120.0 BMP
+мар. 13, 2025 9:05:40 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 104.0
+мар. 13, 2025 9:07:22 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 105.0
+мар. 13, 2025 9:07:22 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 105.00011 BMP
+мар. 13, 2025 9:07:33 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+мар. 13, 2025 9:07:33 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 116.0
+мар. 13, 2025 9:09:05 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 8 tracks at 217.00055 BMP
+мар. 13, 2025 9:09:05 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 217.0
+мар. 13, 2025 9:10:23 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 130.0
+мар. 13, 2025 9:10:23 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 15 tracks at 130.00014 BMP
+мар. 13, 2025 9:10:51 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+мар. 13, 2025 9:10:51 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 130.0
+мар. 13, 2025 9:11:42 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+мар. 13, 2025 9:11:42 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 130.0
+мар. 13, 2025 9:13:09 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+мар. 13, 2025 9:13:09 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 130.0
+мар. 13, 2025 9:13:24 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 130.0
+мар. 13, 2025 9:14:23 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 118.00014 BMP
+мар. 13, 2025 9:14:32 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 2 tracks at 116.000084 BMP
+мар. 13, 2025 9:14:32 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 116.0
+мар. 14, 2025 8:00:26 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 118.00014 BMP
+мар. 14, 2025 8:00:26 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 118.0
+мар. 18, 2025 7:53:28 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 10 tracks at 135.00014 BMP
+мар. 18, 2025 7:53:28 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 135.0
+мар. 18, 2025 7:54:27 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 4 tracks at 50.0 BMP
+мар. 18, 2025 7:54:27 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 50.0
+мар. 18, 2025 7:54:37 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 45.0
+мар. 18, 2025 7:54:38 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 45.0
+мар. 18, 2025 7:54:38 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 45.0
+мар. 18, 2025 7:54:39 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 44.0
+мар. 18, 2025 7:54:39 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 42.0
+мар. 18, 2025 7:54:39 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 42.0
+мар. 18, 2025 7:54:41 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 38.0
+мар. 18, 2025 7:54:47 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 190.0
+мар. 18, 2025 7:54:47 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 10 tracks at 190.0 BMP
+мар. 18, 2025 7:54:47 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 190.0
+мар. 18, 2025 7:55:33 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 120.0 BMP
+мар. 18, 2025 7:55:43 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 228.0
+мар. 18, 2025 7:55:43 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 14 tracks at 227.99998 BMP
+мар. 18, 2025 7:55:43 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 228.0
+мар. 18, 2025 7:56:54 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 15 tracks at 250.0 BMP
+мар. 18, 2025 7:56:55 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 123.0
+мар. 18, 2025 7:57:53 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 250.0 BMP
+мар. 18, 2025 7:57:55 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 83.0
+мар. 18, 2025 7:58:29 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 16 tracks at 120.0 BMP
+мар. 18, 2025 7:58:41 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 120.0 BMP
+мар. 18, 2025 7:59:00 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 5 tracks at 122.0 BMP
+мар. 18, 2025 7:59:00 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 122.0
+мар. 18, 2025 7:59:16 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 6 tracks at 104.000015 BMP
+мар. 18, 2025 7:59:16 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 104.0
+мар. 18, 2025 7:59:26 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 132.0
+мар. 18, 2025 7:59:26 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 16 tracks at 132.00014 BMP
+мар. 18, 2025 7:59:35 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 11 tracks at 191.0 BMP
+мар. 18, 2025 7:59:35 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 191.0
+мар. 18, 2025 7:59:43 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 11 tracks at 126.0 BMP
+мар. 18, 2025 7:59:43 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 126.0
+мар. 18, 2025 7:59:55 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 132.0 BMP
+мар. 18, 2025 7:59:55 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 132.0
+мар. 18, 2025 8:00:21 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 62.0
+мар. 18, 2025 8:00:21 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 62.0 BMP
+мар. 18, 2025 8:00:57 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 18 tracks at 200.0 BMP
+мар. 18, 2025 8:01:24 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 4 tracks at 250.0 BMP
+мар. 18, 2025 8:01:25 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 109.0
+мар. 18, 2025 8:01:25 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 109.0
+мар. 18, 2025 8:01:38 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 4 tracks at 250.0 BMP
+мар. 18, 2025 8:01:39 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 109.0
+мар. 18, 2025 8:01:39 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 109.0
+мар. 18, 2025 8:01:40 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 6 tracks at 112.00006 BMP
+мар. 18, 2025 8:01:41 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 112.0
+мар. 18, 2025 8:01:41 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 112.0
+мар. 18, 2025 8:02:45 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 10 tracks at 135.0 BMP
+мар. 18, 2025 8:02:45 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 135.0
+мар. 18, 2025 8:03:12 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 4 tracks at 50.0 BMP
+мар. 18, 2025 8:03:23 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 45.0
+мар. 18, 2025 8:03:23 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 45.0
+мар. 18, 2025 8:03:24 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 45.0
+мар. 18, 2025 8:03:24 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 44.0
+мар. 18, 2025 8:03:24 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 42.0
+мар. 18, 2025 8:03:25 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 42.0
+мар. 18, 2025 8:03:26 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 38.0
+мар. 18, 2025 8:03:57 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 10 tracks at 190.00029 BMP
+мар. 18, 2025 8:03:57 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 190.0
+мар. 18, 2025 8:04:46 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 10 tracks at 190.00029 BMP
+мар. 18, 2025 8:04:46 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 190.0
+мар. 18, 2025 8:04:47 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 120.0 BMP
+мар. 18, 2025 8:05:09 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 228.0
+мар. 18, 2025 8:05:09 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 14 tracks at 228.00078 BMP
+мар. 18, 2025 8:05:09 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 228.0
+мар. 18, 2025 8:05:54 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 15 tracks at 250.0 BMP
+мар. 18, 2025 8:05:55 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 123.0
+мар. 18, 2025 8:06:25 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 118.0
+мар. 18, 2025 8:06:25 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 118.0 BMP
+мар. 18, 2025 8:06:25 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 118.0
+мар. 18, 2025 8:06:35 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 250.0
+мар. 18, 2025 8:06:35 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 250.0 BMP
+мар. 18, 2025 8:06:37 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 83.0
+мар. 18, 2025 8:06:52 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 16 tracks at 120.0 BMP
+мар. 18, 2025 8:07:09 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 120.0 BMP
+мар. 18, 2025 8:08:05 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 5 tracks at 122.0 BMP
+мар. 18, 2025 8:08:05 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 122.0
+мар. 18, 2025 8:08:44 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 6 tracks at 104.000015 BMP
+мар. 18, 2025 8:08:44 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 104.0
+мар. 18, 2025 8:08:57 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 132.0
+мар. 18, 2025 8:08:57 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 16 tracks at 132.0 BMP
+мар. 18, 2025 8:08:57 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 132.0
+мар. 18, 2025 8:09:20 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 11 tracks at 191.0 BMP
+мар. 18, 2025 8:09:20 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 191.0
+мар. 18, 2025 8:10:05 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 11 tracks at 126.0 BMP
+мар. 18, 2025 8:10:05 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 126.0
+мар. 18, 2025 8:10:22 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 12 tracks at 120.0 BMP
+мар. 18, 2025 8:11:07 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 102.0
+мар. 18, 2025 8:11:07 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 102.0 BMP
+мар. 18, 2025 8:11:47 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 132.0
+мар. 18, 2025 8:11:47 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 132.0 BMP
+мар. 18, 2025 8:11:47 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 132.0
+мар. 18, 2025 8:12:47 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 62.0
+мар. 18, 2025 8:12:47 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 62.999996 BMP
+мар. 18, 2025 8:13:16 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 18 tracks at 200.0 BMP
+мар. 18, 2025 8:14:18 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 4 tracks at 250.0 BMP
+мар. 18, 2025 8:14:18 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 101.0
+мар. 18, 2025 8:14:18 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 101.00007
+мар. 18, 2025 8:14:18 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 101.0
+мар. 18, 2025 8:14:18 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 101.00007 BMP
+мар. 18, 2025 8:15:38 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 140.00014 BMP
+мар. 18, 2025 8:15:38 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 140.0
+мар. 18, 2025 8:15:46 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+мар. 18, 2025 8:15:46 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 116.0
+мар. 18, 2025 8:15:52 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 190.0
+мар. 18, 2025 8:15:52 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 10 tracks at 190.0 BMP
+мар. 18, 2025 8:15:52 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 190.0
+мар. 18, 2025 8:16:52 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 228.0
+мар. 18, 2025 8:16:52 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 228.00078
+мар. 18, 2025 8:16:52 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 228.0
+мар. 18, 2025 8:16:52 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 14 tracks at 228.00078 BMP
+мар. 18, 2025 8:17:32 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 15 tracks at 250.0 BMP
+мар. 18, 2025 8:17:33 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 123.0
+мар. 18, 2025 8:18:01 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 118.0
+мар. 18, 2025 8:18:01 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 118.00014 BMP
+мар. 18, 2025 8:18:11 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 120.0 BMP
+мар. 18, 2025 8:18:11 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 120.0
+мар. 18, 2025 8:19:06 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 65.0
+мар. 18, 2025 8:19:06 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 65.0026 BMP
+мар. 18, 2025 8:19:16 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 75.0
+мар. 18, 2025 8:19:16 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 76.0
+мар. 18, 2025 8:19:16 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 77.0
+мар. 18, 2025 8:19:16 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 78.0
+мар. 18, 2025 8:19:23 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 79.0
+мар. 18, 2025 8:19:23 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 81.0
+мар. 18, 2025 8:19:23 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 82.0
+мар. 18, 2025 8:19:23 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 83.0
+мар. 18, 2025 8:19:23 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 84.0
+мар. 18, 2025 8:19:26 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 85.0
+мар. 18, 2025 8:19:26 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 86.0
+мар. 18, 2025 8:19:26 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 87.0
+мар. 18, 2025 8:19:26 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 88.0
+мар. 18, 2025 8:19:28 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 89.0
+мар. 18, 2025 8:19:28 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 90.0
+мар. 18, 2025 8:19:29 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 91.0
+мар. 18, 2025 8:19:29 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 91.0
+мар. 18, 2025 8:19:29 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 92.0
+мар. 18, 2025 8:19:34 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 93.0
+мар. 18, 2025 8:19:34 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 94.0
+мар. 18, 2025 8:19:34 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 95.0
+мар. 18, 2025 8:19:34 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 96.0
+мар. 18, 2025 8:19:34 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 97.0
+мар. 18, 2025 8:19:35 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 150.0 BMP
+мар. 18, 2025 8:21:22 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 140.00014 BMP
+мар. 18, 2025 8:22:42 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 11 tracks at 191.00008 BMP
+мар. 18, 2025 8:22:42 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 191.0
+мар. 18, 2025 8:23:44 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 6 tracks at 75.0 BMP
+мар. 18, 2025 8:24:08 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 9 tracks at 200.0 BMP
+мар. 18, 2025 8:24:22 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 206.0
+мар. 18, 2025 8:24:22 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 206.0
+мар. 18, 2025 8:24:28 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 208.0
+мар. 18, 2025 8:24:31 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 190.0
+мар. 18, 2025 8:24:31 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 136.0
+мар. 18, 2025 8:24:33 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 196.0
+мар. 18, 2025 8:24:36 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 208.0
+мар. 18, 2025 8:24:38 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 216.0
+мар. 18, 2025 8:24:42 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 220.0
+мар. 18, 2025 8:24:45 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 224.0
+мар. 18, 2025 8:24:45 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 224.0
+мар. 18, 2025 8:24:47 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 230.0
+мар. 18, 2025 8:24:49 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 224.0
+мар. 18, 2025 8:24:49 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 224.0
+мар. 18, 2025 8:24:51 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 230.0
+мар. 18, 2025 8:24:55 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 236.0
+мар. 18, 2025 8:24:58 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 104.0
+мар. 18, 2025 8:24:58 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 19 tracks at 104.99992 BMP
+мар. 18, 2025 8:26:11 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 13 tracks at 250.0 BMP
+мар. 18, 2025 8:26:12 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 115.0
+мар. 18, 2025 8:26:52 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 11 tracks at 250.0 BMP
+мар. 18, 2025 8:27:41 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 250.0 BMP
+мар. 18, 2025 8:27:42 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 182.0
+мар. 18, 2025 8:27:42 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 182.0
+мар. 18, 2025 8:28:25 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 101.0
+мар. 18, 2025 8:28:25 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 101.0016
+мар. 18, 2025 8:28:25 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 12 tracks at 101.0016 BMP
+мар. 18, 2025 8:28:57 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+мар. 18, 2025 8:28:57 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 130.0
+мар. 18, 2025 8:29:35 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 12 tracks at 250.0 BMP
+мар. 18, 2025 8:29:36 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 140.0
+мар. 18, 2025 8:30:09 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 10 tracks at 127.00025 BMP
+мар. 18, 2025 8:30:09 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 127.0
+мар. 18, 2025 8:30:12 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 127.0
+мар. 18, 2025 8:30:14 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 127.0
+мар. 18, 2025 8:30:16 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 127.0
+мар. 18, 2025 8:30:17 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 127.0
+мар. 18, 2025 8:30:19 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 127.0
+мар. 18, 2025 8:30:21 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 127.0
+мар. 18, 2025 8:30:23 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 127.0
+мар. 18, 2025 8:30:25 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 127.0
+мар. 18, 2025 8:30:27 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 127.0
+мар. 18, 2025 8:30:29 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 127.0
+мар. 18, 2025 8:30:31 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 127.0
+мар. 18, 2025 8:30:31 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 250.0 BMP
+мар. 18, 2025 8:30:33 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 122.0
+мар. 18, 2025 8:31:01 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 90.0
+мар. 18, 2025 8:31:01 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 90.00009 BMP
+мар. 18, 2025 8:31:31 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 15 tracks at 250.0 BMP
+мар. 18, 2025 8:31:32 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 108.0
+мар. 18, 2025 8:31:34 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 108.0
+мар. 18, 2025 8:31:37 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 109.0
+мар. 18, 2025 8:31:37 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 109.0
+мар. 18, 2025 8:31:44 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 112.0
+мар. 18, 2025 8:31:44 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 112.0
+мар. 18, 2025 8:31:51 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 113.0
+мар. 18, 2025 8:31:58 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 113.0
+мар. 18, 2025 8:32:05 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 108.0
+мар. 18, 2025 8:32:41 PM com.moppy.control.gui.SequencerPanel loadSequence
+WARNING: null
+java.io.IOException: File 'C:\Users\User\OneDrive\Desktop\midi\tili_tili.mid' not found, or isn't a file
+	at com.moppy.core.midi.MoppyMIDISequencer.loadSequence(MoppyMIDISequencer.java:90)
+	at com.moppy.control.gui.SequencerPanel.loadSequence(SequencerPanel.java:110)
+	at com.moppy.control.gui.SequencerPanel.playlistFilesListMouseClicked(SequencerPanel.java:463)
+	at com.moppy.control.gui.SequencerPanel$12.mouseClicked(SequencerPanel.java:374)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6624)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4584)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+мар. 18, 2025 8:32:41 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 4 tracks at 120.0 BMP
+мар. 18, 2025 8:33:05 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 12 tracks at 157.99994 BMP
+мар. 18, 2025 8:33:05 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 157.0
+мар. 18, 2025 8:33:39 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 4 tracks at 250.0 BMP
+мар. 18, 2025 8:33:40 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 109.0
+мар. 18, 2025 8:33:40 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 109.0
+мар. 18, 2025 8:34:29 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 18 tracks at 200.0 BMP
+мар. 18, 2025 8:35:11 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 140.00014 BMP
+мар. 18, 2025 8:35:19 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 6 tracks at 112.00006 BMP
+мар. 18, 2025 8:35:19 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 112.0
+мар. 18, 2025 8:35:19 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 112.0
+мар. 18, 2025 8:35:31 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 140.00014 BMP
+мар. 18, 2025 8:35:31 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 140.0
+мар. 18, 2025 8:35:45 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+мар. 18, 2025 8:35:45 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 116.0
+мар. 18, 2025 8:37:13 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 10 tracks at 190.0 BMP
+мар. 18, 2025 8:37:13 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 190.0
+мар. 18, 2025 8:37:34 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 228.0
+мар. 18, 2025 8:37:34 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 228.00078
+мар. 18, 2025 8:37:34 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 228.0
+мар. 18, 2025 8:37:34 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 14 tracks at 228.00078 BMP
+мар. 18, 2025 8:37:39 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 15 tracks at 250.0 BMP
+мар. 18, 2025 8:37:40 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 123.0
+мар. 18, 2025 8:37:54 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 118.0
+мар. 18, 2025 8:37:54 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 118.00014 BMP
+мар. 18, 2025 8:37:58 PM com.moppy.control.gui.SequencerPanel loadSequence
+WARNING: null
+java.io.IOException: File 'C:\Users\User\OneDrive\Desktop\midi\fur_elise_beethoven.mid' not found, or isn't a file
+	at com.moppy.core.midi.MoppyMIDISequencer.loadSequence(MoppyMIDISequencer.java:90)
+	at com.moppy.control.gui.SequencerPanel.loadSequence(SequencerPanel.java:110)
+	at com.moppy.control.gui.SequencerPanel.playlistFilesListMouseClicked(SequencerPanel.java:463)
+	at com.moppy.control.gui.SequencerPanel$12.mouseClicked(SequencerPanel.java:374)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6624)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4584)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+мар. 18, 2025 8:37:58 PM com.moppy.control.gui.SequencerPanel loadSequence
+WARNING: null
+java.io.IOException: File 'C:\Users\User\OneDrive\Desktop\midi\Ciganochka.mid' not found, or isn't a file
+	at com.moppy.core.midi.MoppyMIDISequencer.loadSequence(MoppyMIDISequencer.java:90)
+	at com.moppy.control.gui.SequencerPanel.loadSequence(SequencerPanel.java:110)
+	at com.moppy.control.gui.SequencerPanel.loadSequence(SequencerPanel.java:116)
+	at com.moppy.control.gui.SequencerPanel.playlistFilesListMouseClicked(SequencerPanel.java:463)
+	at com.moppy.control.gui.SequencerPanel$12.mouseClicked(SequencerPanel.java:374)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6624)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4584)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+мар. 18, 2025 8:37:58 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 150.0 BMP
+мар. 18, 2025 8:37:58 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 150.0
+мар. 18, 2025 8:38:08 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 191.0
+мар. 18, 2025 8:38:08 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 11 tracks at 191.0 BMP
+мар. 18, 2025 8:38:08 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 191.0
+мар. 18, 2025 8:38:13 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 19 tracks at 104.99992 BMP
+мар. 18, 2025 8:38:13 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 104.0
+мар. 18, 2025 8:38:20 PM com.moppy.control.gui.SequencerPanel loadSequence
+WARNING: null
+java.io.IOException: File 'C:\Users\User\OneDrive\Desktop\midi\moldow.mid' not found, or isn't a file
+	at com.moppy.core.midi.MoppyMIDISequencer.loadSequence(MoppyMIDISequencer.java:90)
+	at com.moppy.control.gui.SequencerPanel.loadSequence(SequencerPanel.java:110)
+	at com.moppy.control.gui.SequencerPanel.playlistFilesListMouseClicked(SequencerPanel.java:463)
+	at com.moppy.control.gui.SequencerPanel$12.mouseClicked(SequencerPanel.java:374)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6624)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4584)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+мар. 18, 2025 8:38:21 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 19 tracks at 104.99992 BMP
+мар. 18, 2025 8:38:21 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 104.0
+мар. 18, 2025 8:39:05 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+мар. 18, 2025 8:39:05 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 93.0
+мар. 19, 2025 7:51:07 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 16 tracks at 120.01008 BMP
+мар. 19, 2025 7:51:07 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 120.0
+мар. 19, 2025 7:52:10 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 110.0
+мар. 19, 2025 7:52:10 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 2 tracks at 110.00011 BMP
+мар. 19, 2025 8:01:27 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 4 tracks at 120.0 BMP
+мар. 19, 2025 9:05:50 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 110.0
+мар. 19, 2025 9:05:50 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 2 tracks at 110.0 BMP
+мар. 19, 2025 9:05:50 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 110.0
+мар. 19, 2025 9:07:23 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 140.00014 BMP
+мар. 19, 2025 9:07:23 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 140.0
+мар. 19, 2025 9:07:51 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 2 tracks at 110.00011 BMP
+мар. 19, 2025 9:08:06 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+мар. 19, 2025 9:08:06 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 116.0
+мар. 19, 2025 9:10:34 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 16 tracks at 120.01008 BMP
+мар. 19, 2025 9:10:34 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 120.0
+мар. 19, 2025 9:11:01 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 228.0
+мар. 19, 2025 9:11:01 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 228.00078
+мар. 19, 2025 9:11:01 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 228.0
+мар. 19, 2025 9:11:01 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 14 tracks at 228.00078 BMP
+мар. 19, 2025 9:11:12 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 228.0
+мар. 19, 2025 9:11:12 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 228.0
+мар. 19, 2025 9:12:44 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+мар. 19, 2025 9:12:44 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 130.0
+мар. 19, 2025 9:13:52 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 2 tracks at 110.00011 BMP
+мар. 19, 2025 9:14:13 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 90.00009 BMP
+мар. 19, 2025 9:14:13 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 90.0
+мар. 19, 2025 9:14:46 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 104.0
+мар. 19, 2025 9:14:46 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 19 tracks at 104.0 BMP
+мар. 19, 2025 9:14:46 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 104.0
+мар. 19, 2025 9:15:12 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 10 tracks at 190.0 BMP
+мар. 19, 2025 9:15:12 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 190.0
+мар. 20, 2025 8:02:49 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 4 tracks at 120.0 BMP
+мар. 20, 2025 8:02:49 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 107.0
+мар. 20, 2025 8:02:49 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 107.0
+мар. 20, 2025 8:02:49 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 107.0
+мар. 20, 2025 8:02:49 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 107.0
+мар. 20, 2025 8:05:03 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 107.0
+мар. 20, 2025 8:05:03 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 107.0
+мар. 20, 2025 8:05:03 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 107.0
+мар. 20, 2025 8:06:01 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 107.0
+мар. 20, 2025 8:06:01 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 107.0
+мар. 20, 2025 8:06:01 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 107.0
+мар. 20, 2025 8:15:41 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 107.0
+мар. 20, 2025 8:15:41 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 107.0
+мар. 20, 2025 8:15:41 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 107.0
+мар. 20, 2025 8:16:27 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 107.0
+мар. 20, 2025 8:16:27 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 107.0
+мар. 20, 2025 8:16:27 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 107.0
+мар. 20, 2025 9:09:42 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 140.00014 BMP
+мар. 20, 2025 9:09:42 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 140.0
+мар. 20, 2025 9:09:56 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 140.00014 BMP
+мар. 20, 2025 9:41:35 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 140.00014 BMP
+мар. 20, 2025 9:41:35 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 140.0
+мар. 20, 2025 9:41:49 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 140.00014 BMP
+мар. 20, 2025 9:43:11 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 140.0
+мар. 20, 2025 9:43:25 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 140.00014 BMP
+мар. 20, 2025 9:49:14 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 140.0
+мар. 20, 2025 9:49:28 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 140.00014 BMP
+мар. 20, 2025 9:53:02 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 140.0
+мар. 20, 2025 9:53:16 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 140.00014 BMP
+мар. 20, 2025 11:08:04 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 140.00014 BMP
+мар. 20, 2025 11:08:04 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 140.0
+мар. 20, 2025 11:08:17 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 140.00014 BMP
+мар. 20, 2025 11:08:35 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 140.0
+мар. 20, 2025 11:08:42 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+мар. 20, 2025 11:08:42 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 116.0
+мар. 20, 2025 11:14:17 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 140.00014 BMP
+мар. 20, 2025 11:14:17 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 140.0
+мар. 20, 2025 11:14:40 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+мар. 20, 2025 11:14:40 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 116.0
+мар. 20, 2025 11:15:00 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 14 tracks at 228.00078 BMP
+мар. 20, 2025 11:15:00 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 228.0
+мар. 20, 2025 11:15:00 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 228.0
+мар. 20, 2025 11:16:55 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 140.00014 BMP
+мар. 20, 2025 11:17:57 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 10 tracks at 190.00029 BMP
+мар. 20, 2025 11:17:57 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 190.0
+мар. 20, 2025 11:18:11 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 118.0 BMP
+мар. 20, 2025 11:18:11 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 118.0
+мар. 20, 2025 11:19:42 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 93.0
+мар. 20, 2025 11:19:42 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 93.0
+мар. 20, 2025 11:19:42 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 2 tracks at 93.0 BMP
+мар. 20, 2025 11:19:42 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 93.0
+мар. 20, 2025 11:22:09 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+мар. 20, 2025 11:22:09 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 130.0
+мар. 20, 2025 11:23:19 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 140.00014 BMP
+мар. 20, 2025 11:23:27 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 140.0
+мар. 20, 2025 11:23:40 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+мар. 20, 2025 11:23:40 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 116.0
+мар. 20, 2025 11:23:51 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+мар. 20, 2025 11:23:51 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 130.0
+мар. 20, 2025 11:23:56 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 93.0
+мар. 20, 2025 11:23:56 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 2 tracks at 93.00004 BMP
+мар. 20, 2025 11:24:25 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 15 tracks at 250.0 BMP
+мар. 20, 2025 11:24:26 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 123.0
+мар. 20, 2025 11:24:54 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 105.0
+мар. 20, 2025 11:24:54 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 105.0 BMP
+мар. 20, 2025 11:25:16 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 217.0
+мар. 20, 2025 11:25:16 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 8 tracks at 217.00055 BMP
+мар. 20, 2025 11:26:02 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 217.0
+мар. 20, 2025 11:26:47 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 0 tracks at 120.0 BMP
+мар. 20, 2025 11:28:15 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 1 tracks at 140.00014 BMP
+мар. 20, 2025 11:28:27 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 4 tracks at 120.0 BMP
+мар. 20, 2025 11:28:27 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 104.0
+мар. 20, 2025 11:30:28 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 12 tracks at 157.0 BMP
+мар. 20, 2025 11:30:28 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 157.0
+мар. 20, 2025 11:31:21 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 100.0 BMP
+мар. 20, 2025 11:32:00 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 100.0 BMP
+мар. 20, 2025 11:32:18 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 5 tracks at 112.00006 BMP
+мар. 20, 2025 11:32:18 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 112.0
+мар. 20, 2025 11:32:18 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 112.0
+мар. 20, 2025 11:32:42 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 112.0
+мар. 20, 2025 11:32:45 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 112.0
+мар. 24, 2025 12:45:43 AM com.moppy.control.gui.netpanel.BridgePanel bridgeCheckBoxActionPerformed
+SEVERE: null
+java.io.IOException: Failed to open serialPort!
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:40)
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:19)
+	at com.moppy.control.NetworkManager.connectBridge(NetworkManager.java:120)
+	at com.moppy.control.gui.netpanel.BridgePanel.bridgeCheckBoxActionPerformed(BridgePanel.java:82)
+	at com.moppy.control.gui.netpanel.BridgePanel$1.actionPerformed(BridgePanel.java:57)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.JToggleButton$ToggleButtonModel.setPressed(JToggleButton.java:411)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+мар. 24, 2025 12:45:44 AM com.moppy.control.gui.netpanel.BridgePanel bridgeCheckBoxActionPerformed
+SEVERE: null
+java.io.IOException: Failed to open serialPort!
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:40)
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:19)
+	at com.moppy.control.NetworkManager.connectBridge(NetworkManager.java:120)
+	at com.moppy.control.gui.netpanel.BridgePanel.bridgeCheckBoxActionPerformed(BridgePanel.java:82)
+	at com.moppy.control.gui.netpanel.BridgePanel$1.actionPerformed(BridgePanel.java:57)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.JToggleButton$ToggleButtonModel.setPressed(JToggleButton.java:411)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+мар. 24, 2025 12:45:46 AM com.moppy.control.gui.netpanel.BridgePanel bridgeCheckBoxActionPerformed
+SEVERE: null
+java.io.IOException: Failed to open serialPort!
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:40)
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:19)
+	at com.moppy.control.NetworkManager.connectBridge(NetworkManager.java:120)
+	at com.moppy.control.gui.netpanel.BridgePanel.bridgeCheckBoxActionPerformed(BridgePanel.java:82)
+	at com.moppy.control.gui.netpanel.BridgePanel$1.actionPerformed(BridgePanel.java:57)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.JToggleButton$ToggleButtonModel.setPressed(JToggleButton.java:411)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+мар. 24, 2025 12:46:12 AM com.moppy.control.gui.netpanel.BridgePanel bridgeCheckBoxActionPerformed
+SEVERE: null
+java.io.IOException: Failed to open serialPort!
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:40)
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:19)
+	at com.moppy.control.NetworkManager.connectBridge(NetworkManager.java:120)
+	at com.moppy.control.gui.netpanel.BridgePanel.bridgeCheckBoxActionPerformed(BridgePanel.java:82)
+	at com.moppy.control.gui.netpanel.BridgePanel$1.actionPerformed(BridgePanel.java:57)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.JToggleButton$ToggleButtonModel.setPressed(JToggleButton.java:411)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+мар. 24, 2025 12:46:20 AM com.moppy.control.gui.netpanel.BridgePanel bridgeCheckBoxActionPerformed
+SEVERE: null
+java.io.IOException: Failed to open serialPort!
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:40)
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:19)
+	at com.moppy.control.NetworkManager.connectBridge(NetworkManager.java:120)
+	at com.moppy.control.gui.netpanel.BridgePanel.bridgeCheckBoxActionPerformed(BridgePanel.java:82)
+	at com.moppy.control.gui.netpanel.BridgePanel$1.actionPerformed(BridgePanel.java:57)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.JToggleButton$ToggleButtonModel.setPressed(JToggleButton.java:411)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+мар. 24, 2025 12:46:20 AM com.moppy.control.gui.netpanel.BridgePanel bridgeCheckBoxActionPerformed
+SEVERE: null
+java.io.IOException: Failed to open serialPort!
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:40)
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:19)
+	at com.moppy.control.NetworkManager.connectBridge(NetworkManager.java:120)
+	at com.moppy.control.gui.netpanel.BridgePanel.bridgeCheckBoxActionPerformed(BridgePanel.java:82)
+	at com.moppy.control.gui.netpanel.BridgePanel$1.actionPerformed(BridgePanel.java:57)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.JToggleButton$ToggleButtonModel.setPressed(JToggleButton.java:411)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+мар. 24, 2025 12:46:36 AM com.moppy.control.gui.netpanel.BridgePanel bridgeCheckBoxActionPerformed
+SEVERE: null
+java.io.IOException: Failed to open serialPort!
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:40)
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:19)
+	at com.moppy.control.NetworkManager.connectBridge(NetworkManager.java:120)
+	at com.moppy.control.gui.netpanel.BridgePanel.bridgeCheckBoxActionPerformed(BridgePanel.java:82)
+	at com.moppy.control.gui.netpanel.BridgePanel$1.actionPerformed(BridgePanel.java:57)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.JToggleButton$ToggleButtonModel.setPressed(JToggleButton.java:411)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+мар. 24, 2025 12:48:11 AM com.moppy.control.gui.netpanel.BridgePanel bridgeCheckBoxActionPerformed
+SEVERE: null
+java.io.IOException: Failed to open serialPort!
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:40)
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:19)
+	at com.moppy.control.NetworkManager.connectBridge(NetworkManager.java:120)
+	at com.moppy.control.gui.netpanel.BridgePanel.bridgeCheckBoxActionPerformed(BridgePanel.java:82)
+	at com.moppy.control.gui.netpanel.BridgePanel$1.actionPerformed(BridgePanel.java:57)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.JToggleButton$ToggleButtonModel.setPressed(JToggleButton.java:411)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+мар. 24, 2025 12:48:12 AM com.moppy.control.gui.netpanel.BridgePanel bridgeCheckBoxActionPerformed
+SEVERE: null
+java.io.IOException: Failed to open serialPort!
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:40)
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:19)
+	at com.moppy.control.NetworkManager.connectBridge(NetworkManager.java:120)
+	at com.moppy.control.gui.netpanel.BridgePanel.bridgeCheckBoxActionPerformed(BridgePanel.java:82)
+	at com.moppy.control.gui.netpanel.BridgePanel$1.actionPerformed(BridgePanel.java:57)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.JToggleButton$ToggleButtonModel.setPressed(JToggleButton.java:411)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+мар. 24, 2025 12:48:13 AM com.moppy.control.gui.netpanel.BridgePanel bridgeCheckBoxActionPerformed
+SEVERE: null
+java.io.IOException: Failed to open serialPort!
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:40)
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:19)
+	at com.moppy.control.NetworkManager.connectBridge(NetworkManager.java:120)
+	at com.moppy.control.gui.netpanel.BridgePanel.bridgeCheckBoxActionPerformed(BridgePanel.java:82)
+	at com.moppy.control.gui.netpanel.BridgePanel$1.actionPerformed(BridgePanel.java:57)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.JToggleButton$ToggleButtonModel.setPressed(JToggleButton.java:411)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+мар. 24, 2025 12:48:13 AM com.moppy.control.gui.netpanel.BridgePanel bridgeCheckBoxActionPerformed
+SEVERE: null
+java.io.IOException: Failed to open serialPort!
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:40)
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:19)
+	at com.moppy.control.NetworkManager.connectBridge(NetworkManager.java:120)
+	at com.moppy.control.gui.netpanel.BridgePanel.bridgeCheckBoxActionPerformed(BridgePanel.java:82)
+	at com.moppy.control.gui.netpanel.BridgePanel$1.actionPerformed(BridgePanel.java:57)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.JToggleButton$ToggleButtonModel.setPressed(JToggleButton.java:411)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+мар. 24, 2025 12:48:15 AM com.moppy.control.gui.netpanel.BridgePanel bridgeCheckBoxActionPerformed
+SEVERE: null
+java.io.IOException: Failed to open serialPort!
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:40)
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:19)
+	at com.moppy.control.NetworkManager.connectBridge(NetworkManager.java:120)
+	at com.moppy.control.gui.netpanel.BridgePanel.bridgeCheckBoxActionPerformed(BridgePanel.java:82)
+	at com.moppy.control.gui.netpanel.BridgePanel$1.actionPerformed(BridgePanel.java:57)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.JToggleButton$ToggleButtonModel.setPressed(JToggleButton.java:411)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+мар. 24, 2025 12:48:28 AM com.moppy.control.gui.netpanel.BridgePanel bridgeCheckBoxActionPerformed
+SEVERE: null
+java.io.IOException: Failed to open serialPort!
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:40)
+	at com.moppy.core.comms.bridge.BridgeSerial.connect(BridgeSerial.java:19)
+	at com.moppy.control.NetworkManager.connectBridge(NetworkManager.java:120)
+	at com.moppy.control.gui.netpanel.BridgePanel.bridgeCheckBoxActionPerformed(BridgePanel.java:82)
+	at com.moppy.control.gui.netpanel.BridgePanel$1.actionPerformed(BridgePanel.java:57)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.JToggleButton$ToggleButtonModel.setPressed(JToggleButton.java:411)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+мар. 26, 2025 7:31:40 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 100.0 BMP
+мар. 26, 2025 7:32:24 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 100.0 BMP
+мар. 28, 2025 8:52:47 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+мар. 28, 2025 8:52:47 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 130.0
+мар. 28, 2025 8:52:54 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 100.0 BMP
+мар. 28, 2025 8:54:43 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+мар. 28, 2025 8:54:43 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 130.0
+мар. 28, 2025 8:55:42 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 100.0 BMP
+мар. 28, 2025 8:56:15 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+мар. 28, 2025 8:56:15 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 130.0
+мар. 28, 2025 9:00:27 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 131.0
+мар. 28, 2025 9:00:28 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 132.0
+мар. 28, 2025 9:00:28 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 133.0
+мар. 28, 2025 9:00:28 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 134.0
+мар. 28, 2025 9:00:28 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 135.0
+мар. 28, 2025 9:00:28 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 136.0
+мар. 28, 2025 9:00:28 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 137.0
+мар. 28, 2025 9:00:28 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 138.0
+мар. 28, 2025 9:00:28 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 139.0
+мар. 28, 2025 9:00:29 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 140.0
+мар. 28, 2025 9:00:29 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 141.0
+мар. 28, 2025 9:00:29 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 142.0
+мар. 28, 2025 9:00:29 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 143.0
+мар. 28, 2025 9:00:29 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 144.0
+мар. 28, 2025 9:00:34 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 143.0
+мар. 28, 2025 9:00:34 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 142.0
+мар. 28, 2025 9:00:34 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 141.0
+мар. 28, 2025 9:00:34 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 140.0
+мар. 28, 2025 9:00:34 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 139.0
+мар. 28, 2025 9:00:34 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 138.0
+мар. 28, 2025 9:00:34 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 137.0
+мар. 28, 2025 9:00:34 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 136.0
+мар. 28, 2025 9:00:35 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 135.0
+мар. 28, 2025 9:00:35 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 134.0
+мар. 28, 2025 9:00:35 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 133.0
+мар. 28, 2025 9:00:36 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 132.0
+мар. 28, 2025 9:00:36 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 131.0
+мар. 28, 2025 9:00:36 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 130.0
+мар. 30, 2025 7:15:42 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+мар. 30, 2025 7:15:42 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 130.0
+мар. 30, 2025 7:16:41 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+апр. 07, 2025 8:11:51 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 3 tracks at 120.0 BMP
+апр. 07, 2025 8:11:51 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 130.0
+апр. 07, 2025 8:12:17 PM com.moppy.core.midi.MoppyMIDISequencer loadSequence
+INFO: Loaded sequence with 14 tracks at 228.00078 BMP
+апр. 07, 2025 8:12:17 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 228.0
+апр. 07, 2025 8:12:17 PM com.moppy.core.midi.MoppyMIDISequencer setTempo
+INFO: Tempo changed to 228.0
