@@ -177,8 +177,8 @@ void updateDisplay() {
   }
   
   display.print(" ");
-  display.println(currentTemp, 1);
-  display.println("C");
+  display.print(currentTemp, 1);
+  display.print("C");
   
   // ===== СТРОКА 2: T_on и T_off (крупно) =====
   display.setTextSize(1);  // Для параметров используем мелкий шрифт
